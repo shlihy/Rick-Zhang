@@ -1,0 +1,14 @@
+# 大文件不进 git（文档原件体积大，用索引+软链或单独存储）
+vault/
+logs/*.log
+
+# 微信加密数据库绝不入库
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# 密钥与凭证
+all_keys.json
+*.key
+.env
